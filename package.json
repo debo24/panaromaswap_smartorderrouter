@@ -1,6 +1,6 @@
 {
   "name": "panaromaswap_smartorderrouter",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Panaromaswap Smart Order Router",
   "main": "build/main/index",
   "typings": "build/main/index",
@@ -41,7 +41,7 @@
     "@types/lodash": "^4.14.168",
     "@types/stats-lite": "^2.2.0",
     "panaromaswap_defaulttokenlist": "1.0.1",
-    "panaromaswap_routersdk": "1.0.2",
+    "panaromaswap_routersdk": "1.0.3",
     "panaromaswap_swaproutercontracts": "1.0.0",
     "panaromaswap_tokenlists": "1.0.0",
     "panaromaswap_v2sdk": "1.0.4",
