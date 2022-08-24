@@ -52,7 +52,7 @@ import { StaticGasPriceProvider } from '../../../../src/providers/static-gas-pri
 import { DEFAULT_ROUTING_CONFIG_BY_CHAIN } from '../../../../src/routers/alpha-router/config';
 import { getBalanceAndApprove } from '../../../test-util/getBalanceAndApprove';
 
-const SWAP_ROUTER_V2 = '0xd060d9e18795C9F1A3E13255c1fc5600ecf4fa35';
+const SWAP_ROUTER_V2 = '0x54E6826d2878F7dA359eC377F78Ac9c5af1c2337';
 const SLIPPAGE = new Percent(5, 100); // 5% or 10_000?
 
 const checkQuoteToken = (
