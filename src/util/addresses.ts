@@ -17,7 +17,7 @@ export const V3_CORE_FACTORY_ADDRESSES: AddressMap = {
 };
 
 export const QUOTER_V2_ADDRESSES: AddressMap = {
-  ...constructSameAddressMap('0xce523D732f983bf5180b85daBC702C50b49a74ca'),
+  ...constructSameAddressMap('0xA08cF1c8a9EbCA47A5c636f4a5771529D358C70b'),
   [ChainId.CELO]: CELO_QUOTER_ADDRESSES,
   [ChainId.CELO_ALFAJORES]: CELO_QUOTER_ADDRESSES,
 
