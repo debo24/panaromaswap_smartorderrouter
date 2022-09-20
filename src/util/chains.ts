@@ -52,7 +52,7 @@ export const HAS_L1_FEE = [
   ChainId.ARBITRUM_RINKEBY,
 ];
 
-export const NETWORKS_WITH_SAME_BANGSWAP_ADDRESSES = [
+export const NETWORKS_WITH_SAME_PANAROMASWAP_ADDRESSES = [
   ChainId.MAINNET,
   ChainId.ROPSTEN,
   ChainId.RINKEBY,
