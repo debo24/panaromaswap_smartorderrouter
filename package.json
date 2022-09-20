@@ -1,6 +1,6 @@
 {
   "name": "panaromaswap_smartorderrouter",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Panaromaswap Smart Order Router",
   "main": "build/main/index",
   "typings": "build/main/index",
