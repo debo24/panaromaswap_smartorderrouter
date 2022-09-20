@@ -1,7 +1,7 @@
 import { Token } from 'panaromaswap_sdkcore';
 import { FACTORY_ADDRESS } from 'panaromaswap_v3sdk';
 
-import { ChainId, NETWORKS_WITH_SAME_BANGSWAP_ADDRESSES } from './chains';
+import { ChainId, NETWORKS_WITH_SAME_PANAROMASWAP_ADDRESSES } from './chains';
 
 const CELO_V3_CORE_FACTORY_ADDRESSES =
   '0x0';
@@ -24,8 +24,8 @@ export const QUOTER_V2_ADDRESSES: AddressMap = {
   // TODO: Gnosis + Moonbeam contracts to be deployed
 };
 
-export const BANGSWAP_MULTICALL_ADDRESSES: AddressMap = {
-  ...constructSameAddressMap('0xF31ED3C3DdD070A92f5481016B3d484ceA74d52e'),
+export const PANAROMASWAP_MULTICALL_ADDRESSES: AddressMap = {
+  ...constructSameAddressMap('0xFDE7784Fe0032696559562BC822b26419E8cB129'),
   [ChainId.CELO]: CELO_MULTICALL_ADDRESS,
   [ChainId.CELO_ALFAJORES]: CELO_MULTICALL_ADDRESS,
 
@@ -49,7 +49,7 @@ export function constructSameAddressMap<T extends string>(
   address: T,
   additionalNetworks: ChainId[] = []
 ): { [chainId: number]: T } {
-  return NETWORKS_WITH_SAME_BANGSWAP_ADDRESSES.concat(
+  return NETWORKS_WITH_SAME_PANAROMASWAP_ADDRESSES.concat(
     additionalNetworks
   ).reduce<{
     [chainId: number]: T;
