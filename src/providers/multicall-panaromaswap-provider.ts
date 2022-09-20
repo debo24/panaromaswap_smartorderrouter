@@ -6,7 +6,7 @@ import stats from 'stats-lite';
 import { PanaromaswapInterfaceMulticall__factory } from '../types/v3/factories/PanaromaswapInterfaceMulticall__factory';
 import { PanaromaswapInterfaceMulticall } from '../types/v3/PanaromaswapInterfaceMulticall';
 import { ChainId } from '../util';
-import { BANGSWAP_MULTICALL_ADDRESSES } from '../util/addresses';
+import { PANAROMASWAP_MULTICALL_ADDRESSES } from '../util/addresses';
 import { log } from '../util/log';
 
 import {
@@ -39,7 +39,7 @@ export class PanaromaswapMulticallProvider extends IMulticallProvider<Panaromasw
     protected gasLimitPerCall = 1_000_000
   ) {
     super();
-    const multicallAddress = BANGSWAP_MULTICALL_ADDRESSES[this.chainId];
+    const multicallAddress = PANAROMASWAP_MULTICALL_ADDRESSES[this.chainId];
 
     if (!multicallAddress) {
       throw new Error(
